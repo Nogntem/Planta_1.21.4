@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "planta:plastic"
+  },
+  "pattern": [
+    "# #",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "planta:plastic_pot"
+  }
+}
