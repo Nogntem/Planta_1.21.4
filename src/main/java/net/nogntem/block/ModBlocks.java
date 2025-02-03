@@ -11,6 +11,8 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.nogntem.Planta;
+import net.nogntem.block.custom.BigPotPlastic;
+import net.nogntem.block.custom.PotPlastic;
 
 
 public class ModBlocks {
@@ -39,12 +41,12 @@ public class ModBlocks {
     );
 
     public static final Block BIG_PLASTIC_POT = register(
-            new Block(AbstractBlock.Settings.create().registryKey(BIG_PLASTIC_POT_KEY).sounds(BlockSoundGroup.DECORATED_POT)),
+            new BigPotPlastic(AbstractBlock.Settings.create().registryKey(BIG_PLASTIC_POT_KEY).sounds(BlockSoundGroup.DECORATED_POT)),
             BIG_PLASTIC_POT_KEY,
             true
     );
     public static final Block PLASTIC_POT = register(
-            new Block(AbstractBlock.Settings.create().registryKey(PLASTIC_POT_KEY).sounds(BlockSoundGroup.DECORATED_POT)),
+            new PotPlastic(AbstractBlock.Settings.create().registryKey(PLASTIC_POT_KEY).sounds(BlockSoundGroup.DECORATED_POT)),
             PLASTIC_POT_KEY,
             true
     );
