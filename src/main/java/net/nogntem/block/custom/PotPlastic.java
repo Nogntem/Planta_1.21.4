@@ -4,11 +4,9 @@ import com.mojang.serialization.MapCodec;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;
-import net.minecraft.inventory.SidedInventory;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
-import net.minecraft.world.WorldAccess;
 
 public class PotPlastic extends Block{
     public static final MapCodec<BigPotPlastic> CODEC = createCodec(BigPotPlastic::new);
