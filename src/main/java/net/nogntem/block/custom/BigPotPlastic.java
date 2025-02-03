@@ -9,9 +9,6 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.WorldAccess;
 
-
-import java.util.Map;
-
 public class BigPotPlastic extends Block implements InventoryProvider{
     public static final MapCodec<BigPotPlastic> CODEC = createCodec(BigPotPlastic::new);
     protected static final VoxelShape SHAPE = Block.createCuboidShape(2.0, 0.0, 2.0, 12.0, 15.0, 12.0);
